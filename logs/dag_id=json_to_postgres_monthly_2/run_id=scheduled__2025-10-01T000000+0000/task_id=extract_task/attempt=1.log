@@ -1,0 +1,12 @@
+{"timestamp":"2025-10-05T12:42:27.599910Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-05T12:42:27.603905Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/json_pg.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-05T12:42:27.652913Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/json_pg.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2025-10-05T12:42:27.673400Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:42:27.674694Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:42:27.675979Z","level":"info","event":"Current task name:extract_task","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:42:27.678466Z","level":"info","event":"Dag name:json_to_postgres_monthly_2","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:42:27.776536Z","level":"info","event":"Loaded 8 JSON files into raw_json_data table","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:42:27.776870Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-10-05T12:42:27.792818Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:42:27.793730Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:42:27.794468Z","level":"info","event":"Task operator:<Task(PythonOperator): extract_task>","logger":"task.stdout"}

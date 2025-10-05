@@ -1,0 +1,12 @@
+{"timestamp":"2025-10-05T12:22:46.408571Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-05T12:22:46.410195Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/json_to_postgres.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-05T12:22:46.445699Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/json_to_postgres.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2025-10-05T12:22:46.464468Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:22:46.465809Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:22:46.467179Z","level":"info","event":"Current task name:load_raw_json_task","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:22:46.468214Z","level":"info","event":"Dag name:json_to_postgres_monthly_new","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:22:46.608869Z","level":"info","event":"Loaded 8 JSON files into raw_json_data table","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:22:46.609196Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-10-05T12:22:46.630503Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:22:46.637472Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-05T12:22:46.639144Z","level":"info","event":"Task operator:<Task(PythonOperator): load_raw_json_task>","logger":"task.stdout"}

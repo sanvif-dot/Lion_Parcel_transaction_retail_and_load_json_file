@@ -1,0 +1,12 @@
+{"timestamp":"2025-10-05T11:52:09.406777Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-05T11:52:09.408791Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/retail_transaction.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-05T11:52:09.434232Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/retail_transaction.py","lineno":5,"logger":"py.warnings"}
+{"timestamp":"2025-10-05T11:52:09.458677Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-05T11:52:09.459926Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-05T11:52:09.461238Z","level":"info","event":"Current task name:extract_task","logger":"task.stdout"}
+{"timestamp":"2025-10-05T11:52:09.462379Z","level":"info","event":"Dag name:etl_retail_transactions_fix","logger":"task.stdout"}
+{"timestamp":"2025-10-05T11:52:09.558582Z","level":"info","event":"Extracted 4 rows","logger":"task.stdout"}
+{"timestamp":"2025-10-05T11:52:09.584988Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-10-05T11:52:09.605699Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-05T11:52:09.606711Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-05T11:52:09.608024Z","level":"info","event":"Task operator:<Task(PythonOperator): extract_task>","logger":"task.stdout"}
